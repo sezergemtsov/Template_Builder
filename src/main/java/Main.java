@@ -22,7 +22,7 @@ public class Main {
 
         try {
             // Возраст недопустимый
-            new PersonBuilder().setAge(-100).build();
+            new PersonBuilder().setName("Anna").setScdName("Wolf").setAge(-100).build();
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
